@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Options - Event Sonar Extension</title>
+  <style>
+    html,
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #2A2A2A;
+    }
+
+    button {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Options</h1>
+  <div>
+    <h3>Clé d'API</h3>
+    <input id="api-key" name="api-key" type="text" value="" />
+  </div>
+  <div>
+    <h3>Sélecteur Titre</h3>
+    <input id="title-selector" name="title-selector" type="text" value="" />
+  </div>
+  <div>
+    <h3>Sélecteur Dates</h3>
+    <input id="dates-selector" name="dates-selector" type="text" value="" />
+  </div>
+  <div>
+    <h3>Sélecteur Image</h3>
+    <input id="images-selector" name="images-selector" type="text" value="" />
+  </div>
+  <div>
+    <button type="button" id="save">Enregistrer</button>
+  </div>
+  <script src="options.js"></script>
+</body>
+
+</html>

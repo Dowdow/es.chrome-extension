@@ -1,0 +1,25 @@
+{
+  "name": "Event Sonar Extension",
+  "description": "Get data from Facebook events for Event Sonar",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "icon/es_128.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://event-sonar.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
