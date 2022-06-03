@@ -6,7 +6,7 @@ Go to `chrome://extensions/`, activate developer mode and load the directory.
 
 ## Selectors
 
-Sélecteurs css utilisés par `content.js`.
-Title: `h2 span[class=""]`
-Dates: `h2 span[class*="jdix4yx3"]`
-Image: `img[data-imgperflogname]`
+CSS selectors for `content.js`:
+- Title: `h2 span[class=""]`
+- Dates: `h2 span[class*="jdix4yx3"]`
+- Image: `img[data-imgperflogname]`
